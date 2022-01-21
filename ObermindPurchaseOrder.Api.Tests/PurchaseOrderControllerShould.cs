@@ -14,15 +14,15 @@ using ObermindPurchaseOrder.Api.Models.Requests;
 using ObermindPurchaseOrder.Api.Models.Responses;
 using Xunit;
 
-namespace ObermindPurchaseOrder.Api.Tests.IntegrationTests
+namespace ObermindPurchaseOrder.Api.Tests
 {
-    public class PurchasOrderControllerShould : IClassFixture<WebApplicationFactory<ObermindPurchaseOrder.Api.Startup>>
+    public class PurchaseOrderControllerShould : IClassFixture<WebApplicationFactory<ObermindPurchaseOrder.Api.Startup>>
     {
         private readonly HttpClient httpClient;
         private readonly UserResponse _user;
         private readonly Faker _faker;
 
-        public PurchasOrderControllerShould(WebApplicationFactory<ObermindPurchaseOrder.Api.Startup> factory)
+        public PurchaseOrderControllerShould(WebApplicationFactory<ObermindPurchaseOrder.Api.Startup> factory)
         {
             httpClient = factory.CreateClient();
             

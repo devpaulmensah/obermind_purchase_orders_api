@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.Testing;
 using ObermindPurchaseOrder.Api.Models.Responses;
 using Xunit;
 
-namespace ObermindPurchaseOrder.Api.Tests.IntegrationTests
+namespace ObermindPurchaseOrder.Api.Tests
 {
     public class UserControllerShould : IClassFixture<WebApplicationFactory<ObermindPurchaseOrder.Api.Startup>>
     {

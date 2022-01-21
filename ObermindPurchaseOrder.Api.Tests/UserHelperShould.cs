@@ -5,7 +5,7 @@ using ObermindPurchaseOrder.Api.Helpers;
 using ObermindPurchaseOrder.Api.Models.Responses;
 using Xunit;
 
-namespace ObermindPurchaseOrder.Api.Tests.UnitTests
+namespace ObermindPurchaseOrder.Api.Tests
 {
     public class UserHelperShould
     {

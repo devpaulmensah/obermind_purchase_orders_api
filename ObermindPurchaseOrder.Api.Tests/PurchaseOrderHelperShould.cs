@@ -4,7 +4,7 @@ using ObermindPurchaseOrder.Api.Models;
 using ObermindPurchaseOrder.Api.Models.Requests;
 using Xunit;
 
-namespace ObermindPurchaseOrder.Api.Tests.UnitTests
+namespace ObermindPurchaseOrder.Api.Tests
 {
     public class PurchaseOrderHelperShould
     {
